@@ -1,4 +1,4 @@
-##Juniper SRX SRP For logrhythm
+﻿##Juniper SRX SRP For logrhythm
 
 This SRP for People who got Juniper as perimeter kid.
  
@@ -33,7 +33,7 @@ tell SRX to block traffic for 'LGRTM_BLOCK'  - If u don’t know commands, NW te
 
 ###How to configure: 
 
- 1. Import lpi
+ 1. Import lpi  ( https://github.com/ubais7/Logrhythm-SRPs/tree/master/Juniper%20v3/v3/lpi ) 
  2. Firewall port 22 access from PM/XM/SM to device is needed
  3. Use it
  4. Add deny any rule for group "LGRTM_BLOCK" in srx  / Or what you want to do
