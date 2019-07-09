@@ -1,8 +1,8 @@
-﻿##Juniper SRX SRP For logrhythm
+﻿## Juniper SRX SRP For logrhythm
 
 This SRP for People who got Juniper as perimeter kid.
  
-##Parameters
+## Parameters
 
 Device Ip - IP of Juniper device
 
@@ -15,30 +15,30 @@ Object group name - name of group , this can be later used for any purpose
 IP to block - IP to be added into that object ( dont worry about parameter name, action to be decided in juniper as per need )
 
 
-##What it will do:
+## What it will do:
 
 It will add IP given to object group defined in SRP .
 
  
 
-###So:  
+### So:  
 
 You can trigger an alarm during attack ( Say 3 times port scan in a day ) - IPs will be added to  ' LGRTM_BLOCK '
 
  
 
-###Then :  
+### Then :  
 
 tell SRX to block traffic for 'LGRTM_BLOCK'  - If u don’t know commands, NW team can do this
 
-###How to configure: 
+### How to configure: 
 
  1. Import lpi  ( https://github.com/ubais7/Logrhythm-SRPs/tree/master/Juniper%20v3/v3/lpi ) 
  2. Firewall port 22 access from PM/XM/SM to device is needed
  3. Use it
  4. Add deny any rule for group "LGRTM_BLOCK" in srx  / Or what you want to do
  
-###V3 Improvements
+### V3 Improvements
 
 - Logs will be added to C:/SRX-SRP/logs
 - No hardcoded Group name (So can be used for any purpose) 
@@ -46,7 +46,7 @@ tell SRX to block traffic for 'LGRTM_BLOCK'  - If u don’t know commands, NW te
 (Old version has dependency of Posh-ssh  fixed path )
 
 
-###Plugins used
+### Plugins used
 Posh-SSH (https://github.com/darkoperator/Posh-SSH ) 
 
 ### Test note:
