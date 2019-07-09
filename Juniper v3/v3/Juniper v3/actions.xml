@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remv1:Remediation-Plugin xmlns:remv1="RemediationVersion1.xsd"
+ Name="Block IP SRX-V3">
+ <remv1:Action Name="Block IP"
+ Command="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe">
+ <remv1:ConstantParameter Name="Script" Switch="-file Block_IP_Juniper.ps1"
+ Order="1" />
+ <remv1:StringParameter Name="Device IP" Switch="" Order="2" />
+ <remv1:StringParameter Name="Username" Switch="" Order="3" />
+ <remv1:EncryptedParameter >
+ <remv1:StringParameter Name="Password" Switch="" Order="4"/>
+ </remv1:EncryptedParameter>
+ <remv1:StringParameter Name="Seconds to wait after commit" Switch="" Order="5" />
+ <remv1:StringParameter Name="Object Group Name" Switch="" Order="6" />
+ <remv1:StringParameter Name="IP to block" Switch="" Order="7" />
+</remv1:Action>
+</remv1:Remediation-Plugin>
