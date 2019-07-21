@@ -24,7 +24,7 @@ Mostly AD will be having 445 access to all domain joined Desktops ( not 100% ) -
  
 ## Parameters
 
-###command - 
+### command - 
 
 Read detailed examples from : https://github.com/ubais7/Logrhythm-SRPs/tree/master/WIndows%20IR description. 
 
@@ -36,7 +36,7 @@ y3sIkn0wWh@t!md0!ng
 
 Ip of host where you want to execute command
 
-##Username & Password 
+### Username & Password 
 
 Credentials which has priv to execute command on remote PC
 ( Put username as 1 and password as 1 - incase you want to use user running SM service ) 
