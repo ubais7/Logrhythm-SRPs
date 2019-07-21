@@ -10,9 +10,9 @@ Future planned improvements :
  
 ## Best use case
 
-EDR/ Layer 7 firewals/ Poor mans's EDR (sysmon )   all are expected to give data to SIEM.
+EDR/ Layer 7 firewalls/ Poor mans's EDR (sysmon )   all are expected to give data to SIEM.
 
-If you want to do an investigation during the incident/AIE trigger occurance  -  the best way to obtain evidences is by automating it.
+If you want to do an investigation during the incident/AIE trigger occurrence  -  the best way to obtain evidences is by automating it.
 
 
  
@@ -20,7 +20,7 @@ If you want to do an investigation during the incident/AIE trigger occurance  - 
 
 ### command - the command to be executed 
 
-The minimal recomended if your AIE hit something malicious on a host : 
+The minimal recommended if your AIE hit something malicious on a host : 
  - ipconfig
  - netstat ( -an , -rn ) 
  - time /t
