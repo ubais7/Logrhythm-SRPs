@@ -10,9 +10,9 @@ Future planned improvements :
  
 ## Best use case
 
-EDR/ Layer 7 firewall all are expected to give data to SIEM.
+EDR/ Layer 7 firewals/ Poor mans's EDR (sysmon )   all are expected to give data to SIEM.
 
-If you want to do an investigation during the incident/AIE trigger occurance ( it could be mid-night 12.55.33 ) -  the best way to obtain evidences is by automating it.
+If you want to do an investigation during the incident/AIE trigger occurance  -  the best way to obtain evidences is by automating it.
 
 
  
@@ -29,7 +29,9 @@ The minimal recomended if your AIE hit something malicious on a host :
  - nbtstat –c
  - nbtstat -s
  
- These are exected to produce bit bigger outputs
+ Running services, local accounts, patch checks  all can be executed :)  - Keeping it open for the hunter
+ 
+ These are expected to produce bit bigger outputs
 
 	- dir /t:a /a /s /o:d c:    		- Gather Last Access Time.
 	- dir /t:w /a /s /o:d c:		- Gather Last Modification Time 
