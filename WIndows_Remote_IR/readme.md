@@ -8,6 +8,7 @@ Still working  ( SRP execution status will be failure, but still it can execute 
 ## Pre-req
 
 SM ( from where the SRP being executed)  to remote machine access
+
 	1. Windows admin priv credentials
 	2. Network port 445
 
