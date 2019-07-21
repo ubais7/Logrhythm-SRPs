@@ -31,9 +31,9 @@ The minimal recomended if your AIE hit something malicious on a host :
  
  These are exected to produce bit bigger outputs
 
-dir /t:a /a /s /o:d c:    	- Gather Last Access Time.
-dir /t:w /a /s /o:d c:		- Gather Last Modification Time 
-dir /t:c /a /s /o:d c:		- Gather Last Create Time
+	- dir /t:a /a /s /o:d c:    		- Gather Last Access Time.
+	- dir /t:w /a /s /o:d c:		- Gather Last Modification Time 
+	- dir /t:c /a /s /o:d c:		- Gather Last Create Time
  
 If you need output in  a log file of SM - Put command parameter with ' >> '
 
