@@ -18,7 +18,7 @@ If you want to do an investigation during the incident/AIE trigger occurance ( i
  
 ## Parameters
 
-###command - the command to be executed 
+### command - the command to be executed 
 
 The minimal recomended if your AIE hit something malicious on a host : 
  - ipconfig
