@@ -23,11 +23,11 @@ If you want to do an investigation during the incident/AIE trigger occurrence  -
 The minimal recommended if your AIE hit something malicious on a host : 
  - ipconfig
  - netstat ( -an , -rn ) 
- - time /t
- - date /t 
- - nbtstat -n
- - nbtstat –c
- - nbtstat -s
+ - cmd time /t
+ - cmd date /t
+ - netstat -abno
+ - tasklist
+ - tasklist /v
  
  Running services, local accounts, patch checks  all can be executed :)  - Keeping it open for the hunter
  

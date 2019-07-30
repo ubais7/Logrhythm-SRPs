@@ -1,0 +1,7 @@
+ipconfig /all
+query user
+netstat -an
+netstat -rn
+tasklist /v
+netstat -abno
+net user

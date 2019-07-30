@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remv1:Remediation-Plugin xmlns:remv1="RemediationVersion1.xsd"
+ Name="Windows IR and Investigation v2">
+ <remv1:Action Name="Execute command"
+ Command="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe">
+ <remv1:ConstantParameter Name="Script" Switch="-file windows_ir_inv_execute_command.ps1"
+ Order="1" />
+ <remv1:StringParameter Name="Command" Switch="" Order="2" />
+ <remv1:StringParameter Name="Secret" Switch="" Order="3" />
+ <remv1:StringParameter Name="param 1" Switch="" Order="4" />
+ <remv1:StringParameter Name="param 2" Switch="" Order="5" />
+ <remv1:StringParameter Name="param 3" Switch="" Order="6" />
+ <remv1:StringParameter Name="param 4" Switch="" Order="7" />
+ <remv1:StringParameter Name="Logpath" Switch="" Order="8" />
+</remv1:Action>
+
+<remv1:Action Name="Execute batch"
+ Command="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe">
+ <remv1:ConstantParameter Name="Script" Switch="-file windows_ir_inv_execute_command_batch.ps1"
+ Order="1" />
+ <remv1:StringParameter Name="File" Switch="" Order="2" />
+ <remv1:StringParameter Name="SHA256" Switch="" Order="3" />
+ <remv1:StringParameter Name="Secret" Switch="" Order="4" />
+ <remv1:StringParameter Name="param 1" Switch="" Order="5" />
+ <remv1:StringParameter Name="param 2" Switch="" Order="6" />
+ <remv1:StringParameter Name="param 3" Switch="" Order="7" />
+ <remv1:StringParameter Name="param 4" Switch="" Order="8" />
+ <remv1:StringParameter Name="Logpath" Switch="" Order="9" />
+</remv1:Action>
+
+</remv1:Remediation-Plugin>
