@@ -1,9 +1,8 @@
 ﻿## Windows Incident response SRP v2
 
-### V2 has very nice features. working on a good documentation,
+### V2 has very nice features.
 
-will be updated
 
- 
+Documentation :https://www.linkedin.com/pulse/soaring-logrhythm-windows-ir-smart-response-plugin-ubais-pk/
 
 
