@@ -1,7 +1,7 @@
 ﻿## Send mail with custom html content
 
 
-### Are you in a need of sending custom mails with alarm fields -On time to confirm genuinity of some suspicious Acitivity 
+### Are you in a need of sending custom mails with alarm fields On time to confirm genuinity of some suspicious Acitivity 
 
 This SRP is for you .
 
