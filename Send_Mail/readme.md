@@ -17,13 +17,15 @@ Multiple to can be given with a comma (logically, didnt get time to test) :
 
 ##### Path to Html: 
 
-give the path for html mail ( Use any online html creator, make your mail) for example:
+give the path for html file ( Use any online html creator, make your mail) for example:
 
 ![See](https://raw.githubusercontent.com/ubais7/Logrhythm-SRPs/master/Send_Mail/html.JPG)
 
 On the content:  #param1# ,#param2#  ,#param3#  #param4# #param5# will get replaced with curresponding aralm fields (Which you select in alarm actions )
 
-So full freedom on mail writing :) 
+Save this as an file in PM, give the path
+
+So full freedom on mail writing in html, includes Signature :) 
 
 ##### Mail Server:
 
