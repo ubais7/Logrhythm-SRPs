@@ -9,11 +9,11 @@ This SRP is for you .
 
 from/to/cc :  Ofcourse, mail ids -  no quotes nothing needed
 
-Someone lastname <someone@somewhere.com>
+*Someone lastname <someone@somewhere.com>*
 
 Multiple to can be given with a comma (logically, didnt get time to test) :
 
-Someone1 lastname <someone1@somewhere.com> , Someone2 lastname <someone2@somewhere.com>
+*Someone1 lastname <someone1@somewhere.com> , Someone2 lastname <someone2@somewhere.com>*
 
 Path to Html: 
 
