@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remv1:Remediation-Plugin xmlns:remv1="RemediationVersion1.xsd"
+ Name="Send Mail">
+ <remv1:Action Name="Send Mail"
+ Command="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe">
+ <remv1:ConstantParameter Name="Script" Switch="-file send_mail.ps1"
+ Order="1" />
+ <remv1:StringParameter Name="from" Switch="" Order="2" />
+ <remv1:StringParameter Name="to" Switch="" Order="3" />
+ <remv1:StringParameter Name="cc" Switch="" Order="4" />
+ <remv1:StringParameter Name="html template path" Switch="" Order="5" />
+ <remv1:StringParameter Name="subject" Switch="" Order="6" />
+ <remv1:StringParameter Name="mail server" Switch="" Order="7" />
+ <remv1:StringParameter Name="#param1#" Switch="" Order="8" />
+ <remv1:StringParameter Name="#param2#" Switch="" Order="9" />
+ <remv1:StringParameter Name="#param3#" Switch="" Order="10" />
+ <remv1:StringParameter Name="#param4#" Switch="" Order="11" />
+ <remv1:StringParameter Name="#param5#" Switch="" Order="12" />
+
+</remv1:Action>
+</remv1:Remediation-Plugin>
