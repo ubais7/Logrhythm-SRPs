@@ -29,7 +29,7 @@ So full freedom on mail writing in html, includes Signature :)
 
 ##### Mail Server:
 
-Ip of the SMPTP relay (No ssl, authentication configured in this version )
+Ip of the SMTP relay (No ssl, authentication configured in this version )
 
 ##### Subject:
 
