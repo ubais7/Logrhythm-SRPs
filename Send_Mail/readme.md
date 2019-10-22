@@ -7,7 +7,7 @@ This SRP is for you .
 
 #### Parameters:
 
-from/to/cc :  Ofcourse, mail ids -  no quotes nothing needed
+from/to/cc :  Ofcourse, mail ids -  it should be like (no quotes) :
 
 *Someone lastname \<someone@somewhere.com\>*
 
@@ -17,7 +17,7 @@ Multiple to can be given with a comma (logically, didnt get time to test) :
 
 Path to Html: 
 
-give the path for html mail ( Use any online html creator, make your mail for example:
+give the path for html mail ( Use any online html creator, make your mail) for example:
 
 ![See](https://raw.githubusercontent.com/ubais7/Logrhythm-SRPs/master/Send_Mail/html.JPG)
 
