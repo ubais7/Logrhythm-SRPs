@@ -1,0 +1,1 @@
+.*?user="(?<login>.*?)"\stype="(?<vmid>.*?)"\sauth_device_ip="<sip>"\sfactor="(?<command>.*?)"\sreason="(?<reason>.*?)"\sresult="(?<result>.*?)"\semail="(?<sender>.*?)"\sapp="(?<object>.*?)"
