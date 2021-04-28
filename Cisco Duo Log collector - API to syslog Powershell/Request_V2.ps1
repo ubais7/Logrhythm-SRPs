@@ -118,7 +118,7 @@ function New-duoRequest(){
 
 
 
-$EpochStart = Get-Date 1970-01-01T00:00:00
+$EpochStart = Get-Date -Date "1970-01-01T00:00:00+00:00"
 
 
  $Request = New-DuoRequest -apiHost $apihost -apiEndpoint $apiuri -apiKey $iKey -apiSecret $sKey -requestParams $HashTable
